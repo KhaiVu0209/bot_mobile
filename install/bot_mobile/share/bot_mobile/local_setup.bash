@@ -1,0 +1,1 @@
+/home/khaivu/de4v_ws/src/bot_mobile/build/bot_mobile/ament_cmake_environment_hooks/local_setup.bash

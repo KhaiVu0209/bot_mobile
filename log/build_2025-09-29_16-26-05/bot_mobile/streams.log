@@ -1,0 +1,63 @@
+[0.010s] Invoking command in '/home/khaivu/de4v_ws/src/bot_mobile/build/bot_mobile': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khaivu/dev_ws/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/khaivu/de4v_ws/src/bot_mobile -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile
+[0.055s] -- The C compiler identification is GNU 9.4.0
+[0.108s] -- The CXX compiler identification is GNU 9.4.0
+[0.112s] -- Check for working C compiler: /usr/bin/cc
+[0.179s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.180s] -- Detecting C compiler ABI info
+[0.238s] -- Detecting C compiler ABI info - done
+[0.247s] -- Detecting C compile features
+[0.247s] -- Detecting C compile features - done
+[0.249s] -- Check for working CXX compiler: /usr/bin/c++
+[0.317s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.318s] -- Detecting CXX compiler ABI info
+[0.384s] -- Detecting CXX compiler ABI info - done
+[0.394s] -- Detecting CXX compile features
+[0.394s] -- Detecting CXX compile features - done
+[0.397s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.420s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.420s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.550s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.571s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.627s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.632s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.632s] -- Configured cppcheck include dirs: 
+[0.632s] -- Configured cppcheck exclude dirs and/or files: 
+[0.637s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.637s] -- Configured cpplint exclude dirs and/or files: 
+[0.638s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.639s] -- Added test 'lint_cmake' to check CMake code style
+[0.640s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.644s] -- Added test 'uncrustify' to check C / C++ code style
+[0.644s] -- Configured uncrustify additional arguments: 
+[0.645s] -- Added test 'xmllint' to check XML markup files
+[0.648s] -- Configuring done
+[0.649s] -- Generating done
+[0.650s] -- Build files have been written to: /home/khaivu/de4v_ws/src/bot_mobile/build/bot_mobile
+[0.654s] Invoked command in '/home/khaivu/de4v_ws/src/bot_mobile/build/bot_mobile' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khaivu/dev_ws/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake /home/khaivu/de4v_ws/src/bot_mobile -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile
+[0.656s] Invoking command in '/home/khaivu/de4v_ws/src/bot_mobile/build/bot_mobile': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khaivu/dev_ws/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/khaivu/de4v_ws/src/bot_mobile/build/bot_mobile -- -j8 -l8
+[0.685s] Invoked command in '/home/khaivu/de4v_ws/src/bot_mobile/build/bot_mobile' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khaivu/dev_ws/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --build /home/khaivu/de4v_ws/src/bot_mobile/build/bot_mobile -- -j8 -l8
+[0.695s] Invoking command in '/home/khaivu/de4v_ws/src/bot_mobile/build/bot_mobile': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khaivu/dev_ws/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/khaivu/de4v_ws/src/bot_mobile/build/bot_mobile
+[0.701s] -- Install configuration: ""
+[0.701s] -- Execute custom install script
+[0.701s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/bot_mobile/config/empty.yaml
+[0.708s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/bot_mobile/description/inertial_macros.xacro
+[0.714s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/bot_mobile/description/robot.urdf.xacro
+[0.720s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/bot_mobile/description/robot_core.xacro
+[0.727s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/bot_mobile/launch/rsp.launch.py
+[0.734s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/bot_mobile/worlds/empty.world
+[0.740s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/ament_index/resource_index/package_run_dependencies/bot_mobile
+[0.746s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/ament_index/resource_index/parent_prefix_path/bot_mobile
+[0.752s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/bot_mobile/environment/ament_prefix_path.sh
+[0.758s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/bot_mobile/environment/ament_prefix_path.dsv
+[0.764s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/bot_mobile/environment/path.sh
+[0.770s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/bot_mobile/environment/path.dsv
+[0.776s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/bot_mobile/local_setup.bash
+[0.782s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/bot_mobile/local_setup.sh
+[0.788s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/bot_mobile/local_setup.zsh
+[0.794s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/bot_mobile/local_setup.dsv
+[0.800s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/bot_mobile/package.dsv
+[0.807s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/ament_index/resource_index/packages/bot_mobile
+[0.813s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/bot_mobile/cmake/bot_mobileConfig.cmake
+[0.819s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/bot_mobile/cmake/bot_mobileConfig-version.cmake
+[0.825s] -- Symlinking: /home/khaivu/de4v_ws/src/bot_mobile/install/bot_mobile/share/bot_mobile/package.xml
+[0.860s] Invoked command in '/home/khaivu/de4v_ws/src/bot_mobile/build/bot_mobile' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/khaivu/dev_ws/install/serial_motor_demo:/opt/ros/foxy /usr/bin/cmake --install /home/khaivu/de4v_ws/src/bot_mobile/build/bot_mobile
